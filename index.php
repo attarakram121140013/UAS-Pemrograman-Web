@@ -20,9 +20,6 @@ if (isset($_SESSION['pesan'])) {
     unset($_SESSION['pesan']); // Hapus pesan agar tidak ditampilkan lagi
 }
 
-buatDatabase();
-buatTabelData();
-
 // Koneksi ke database
 $koneksi = koneksiDatabase();
 
