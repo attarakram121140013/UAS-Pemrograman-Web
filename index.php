@@ -102,7 +102,6 @@ $responden = getResponden($koneksi, $genre);
         var formulirData = document.getElementById('formulir');
         formulirData.addEventListener('submit', function(event) {
             console.log('Formulir sedang disubmit!');            
-            formulirData.submit();
         });
     </script>
 
