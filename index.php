@@ -81,7 +81,7 @@ $responden = getResponden($koneksi, $genre);
     <br>
     <!-- Form tambah data -->
     <h2>Tambah responden</h2>
-    <form action="tambah.php" method="POST" onsubmit="return validateForm()">
+    <form action="tambah.php" method="POST" id="formulir" onsubmit="return validateForm()">
         <label for="nama">Nama:</label>
         <input id="nama" type="text" name="nama">
         <br>
@@ -99,6 +99,15 @@ $responden = getResponden($koneksi, $genre);
         <br>
         <input type="submit" value="Tambah">
     </form>
+
+    <!-- Event Handler -->
+    <script>
+        var formulirData = document.getElementById('formulir');
+        formulirData.addEventListener('submit', function(event) {
+            console.log('Formulir sedang disubmit!');            
+            formulirData.submit();
+        });
+    </script>
 
     <h2>Database responden</h2>
 
