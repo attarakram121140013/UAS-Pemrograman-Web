@@ -50,13 +50,25 @@ File koneksi.php bertanggung jawab dalam menghandle konektivitas antara database
 3.3 (10%) Lakukan manipulasi data pada tabel database dengan menggunakan query SQL. Misalnya, tambah data, ambil data, atau update data.
 Panduan:
 - Gunakan query SQL yang sesuai dengan skenario yang diberikan.
+
+Keterangan:
+File tambah, update, dan hapus merupakan file-file yang bertanggung jawab untuk melakukan manipulasi data yang ada pada database.
+
 # Bagian 4: State Management (Bobot: 20%)
 4.1 (10%) Buatlah skrip PHP yang menggunakan session untuk menyimpan dan mengelola state pengguna. Implementasikan logika yang memanfaatkan session.
 Panduan:
 - Gunakan `session_start()` untuk memulai session.
 - Simpan informasi pengguna ke dalam session.
+
+Keterangan:
+Akan digunakan "session_start()" pada tiap potongan file kodingan website ini sehingga selama pengguna masih login ke dalam website semua sesi dapat dicatat. Informasi pengguna akan disimpan sementara ke dalam session, dan akan hilang ketika session berakhir (logout).
+
 4.2 (10%) Implementasikan pengelolaan state menggunakan cookie dan browser storage pada sisi client menggunakan JavaScript.
 Panduan:
 - Buat fungsi-fungsi untuk menetapkan, mendapatkan, dan menghapus cookie.
 - Gunakan browser storage untuk menyimpan informasi secara lokal.
+
+Keterangan:
+Belum dilakukan implementasi cookie dan browser storage pada website ini.
+
 # Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)
