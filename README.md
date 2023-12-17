@@ -86,11 +86,11 @@ Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host
 3.	(5%) Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
     Website hosting gratis yang disediakan oleh 000webhost sayangnya hanya menyediakan perlindungan yang umum saja, namun berikut beberapa hal yang dapat dilakukan untuk memaksimalkan keamanan dari web yang saya host.
     a. Terapkan HTTPS dengan sertifikat SSL untuk melindungi data pengguna.
-    b. Perbarui secara berkala semua perangkat lunak, termasuk server, framework, dan plugin.
-    c. Terapkan firewalls dan atur izin akses dengan bijak.
-    d. Gunakan praktik keamanan pengembangan web seperti validasi input dan penyaringan parameter.
+  	b. Perbarui secara berkala semua perangkat lunak, termasuk server, framework, dan plugin.
+  	c. Terapkan firewalls dan atur izin akses dengan bijak.
+  	d. Gunakan praktik keamanan pengembangan web seperti validasi input dan penyaringan parameter.
      
-4.	(5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+5.	(5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
     Untuk memastikan web berjalan dengan baik, saya melakukan beberapa hal berikut:
   	a. Konfigurasi database (MySQL, PostgreSQL, dll.) dengan pengaturan koneksi yang aman.
     b. Implementasikan aturan firewall untuk mengamankan lalu lintas jaringan.
