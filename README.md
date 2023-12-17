@@ -74,27 +74,27 @@ Belum dilakukan implementasi cookie dan browser storage pada website ini.
 # Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)
 Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host aplikasi web yang Anda buat. Jawablah pertanyaan-pertanyaan berikut:
 1.	(5%) Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
-    a. Memilih penyedia hosting, pada website kali ini digunakan layanan hosting gratis dari 000webhost.
-    b. Daftarkan domain untuk website, untuk website ini domainnya adalah "https://uaspemweb2023-121140013.000webhostapp.com/index.php".
-    c. Unggah file-file web ke server hosting.
-    d. Konfigurasi server, termasuk pengaturan PHP, MySQL, dan server web.
-    e. Uji website untuk memastikan berfungsi dengan baik di lingkungan hosting.
+    - Memilih penyedia hosting, pada website kali ini digunakan layanan hosting gratis dari 000webhost.
+    - Daftarkan domain untuk website, untuk website ini domainnya adalah "https://uaspemweb2023-121140013.000webhostapp.com/index.php".
+    - Unggah file-file web ke server hosting.
+    - Konfigurasi server, termasuk pengaturan PHP, MySQL, dan server web.
+    - Uji website untuk memastikan berfungsi dengan baik di lingkungan hosting.
    
 2.	(5%) Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
     Kali ini saya menggunakan 000webhost sebagai penyedia layanan hosting. Walaupun hanya menyediakan 300 MB penyimpanan dan bandwith sebesar 3GB, saya merasa 000webhost sudah cukup untuk melakukan hosting pada website sederhana ini dan tentunya pula karena penyedia hosting ini tidak memerlukan biaya untuk memakai jasanya.
      
 3.	(5%) Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
     Website hosting gratis yang disediakan oleh 000webhost sayangnya hanya menyediakan perlindungan yang umum saja, namun berikut beberapa hal yang dapat dilakukan untuk memaksimalkan keamanan dari web yang saya host.
-    a. Terapkan HTTPS dengan sertifikat SSL untuk melindungi data pengguna.
-  	b. Perbarui secara berkala semua perangkat lunak, termasuk server, framework, dan plugin.
-  	c. Terapkan firewalls dan atur izin akses dengan bijak.
-  	d. Gunakan praktik keamanan pengembangan web seperti validasi input dan penyaringan parameter.
+    - Terapkan HTTPS dengan sertifikat SSL untuk melindungi data pengguna.
+  	- Perbarui secara berkala semua perangkat lunak, termasuk server, framework, dan plugin.
+  	- Terapkan firewalls dan atur izin akses dengan bijak.
+  	- Gunakan praktik keamanan pengembangan web seperti validasi input dan penyaringan parameter.
      
 4.	(5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
     Untuk memastikan web berjalan dengan baik, saya melakukan beberapa hal berikut:
-  	a. Konfigurasi database (MySQL, PostgreSQL, dll.) dengan pengaturan koneksi yang aman.
-    b. Implementasikan aturan firewall untuk mengamankan lalu lintas jaringan.
-  	c. Manajemen file-file code yang menyusun website.
+  	- Konfigurasi database (MySQL, PostgreSQL, dll.) dengan pengaturan koneksi yang aman.
+    - Implementasikan aturan firewall untuk mengamankan lalu lintas jaringan.
+    - Manajemen file-file code yang menyusun website.
    
 Catatan:
 - Ujian ini dirancang untuk menguji pemahaman dan keterampilan Anda dalam pengembangan web di sisi klien dan server.
