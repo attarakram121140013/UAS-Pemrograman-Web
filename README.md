@@ -13,7 +13,7 @@ Panduan:
 - Implementasikan JavaScript untuk validasi setiap input sebelum diproses oleh PHP
 
 Keterangan:
-Beberapa event yang terdapat pada halaman ini adalah tombol tambah, tombol aplikasi filter berdasarkan genre, tombol logout dan login, tombol edit, dan tombol hapus.
+Beberapa event yang terdapat pada halaman ini adalah tombol tambah, tombol aplikasi filter berdasarkan genre, tombol logout dan login, tombol edit, dan tombol hapus. Javascript juga sudah diterapkan untuk melakukan validasi tiap input data pada formulir sebelum kemudian diproses oleh PHP.
   
 # Bagian 2: Server-side Programming (Bobot: 30%)
 2.1 (20%) Implementasikan script PHP untuk mengelola data dari formulir pada Bagian 1 menggunakan variabel global seperti `$_POST` atau `$_GET`. Tampilkan hasil pengolahan data ke layar.
@@ -21,9 +21,17 @@ Panduan:
 - Gunakan metode POST atau GET pada formulir.
 - Parsing data dari variabel global dan lakukan validasi disisi server
 - Simpan ke basisdata termasuk jenis browser dan alamat IP pengguna
+
+Keterangan:
+PHP sudah digunakan untuk mengelola data-data yang diinputkan pada formulir, tepatnya pada file tambah, hapus, dan update. Kemudian data akan disajikan dalam bentuk tabel yang dapat difilter berdasarkan genre yang dari data, rincian kode ada pada file index. Dengan demikian data yang diinputkan dapat disimpan ke database termasuk dengan browser dan ip dari pengguna.
+
 2.2 (10%) Buatlah sebuah objek PHP berbasis OOP yang memiliki minimal dua metode dan gunakan objek tersebut dalam skenario tertentu pada halaman web Anda.
 Panduan:
 - Objek yang dibuat harus terkait dengan konteks pengembangan web saat ini.
+
+Keterangan:
+Implementasi OOP ada pada file authentikasi yang akan melakukan autentikasi pada saat login dan logout terjadi. Ada tiga metode yang terdapat di dalamnya yaitu fungsi login, fungsi logout, dan fungsi pengecekan login.
+  
 # Bagian 3: Database Management (Bobot: 20%)
 3.1 (5%) Buatlah sebuah tabel pada database MySQL
 Panduan:
