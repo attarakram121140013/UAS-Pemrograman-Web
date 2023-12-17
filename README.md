@@ -36,9 +36,17 @@ Implementasi OOP ada pada file authentikasi yang akan melakukan autentikasi pada
 3.1 (5%) Buatlah sebuah tabel pada database MySQL
 Panduan:
 - Lampirkan langkah-langkah dalam membuat basisdata dengan syntax basisdata
+
+Keterangan:
+Pertama akan dilakukan akses ke myphpadmin untuk kemudian membuat database baru dengan memasukkan syntax "create database" kemudian membuat tabel baru di dalam database dengan syntax "create table". Untuk rincian syntax yang digunakan pada website ini dapat dicek pada file database.sql.
+  
 3.2 (5%) Buatlah konfigurasi koneksi ke database MySQL pada file PHP. Pastikan koneksi berhasil dan dapat diakses.
 Panduan:
 - Gunakan konstanta atau variabel untuk menyimpan informasi koneksi (host, username, password, nama database).
+
+Keterangan:
+File koneksi.php bertanggung jawab dalam menghandle konektivitas antara database dengan jalannya website. File koneksi.php menjadi kunci utama file-file modifikasi database pada website ini dapat berjalan dengan baik. Koneksi.php juga membantu halaman index untuk menampilkan database yang telah tersimpan.
+  
 3.3 (10%) Lakukan manipulasi data pada tabel database dengan menggunakan query SQL. Misalnya, tambah data, ambil data, atau update data.
 Panduan:
 - Gunakan query SQL yang sesuai dengan skenario yang diberikan.
