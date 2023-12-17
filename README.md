@@ -90,10 +90,11 @@ Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host
   	c. Terapkan firewalls dan atur izin akses dengan bijak.
   	d. Gunakan praktik keamanan pengembangan web seperti validasi input dan penyaringan parameter.
      
-5.	(5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+4.	(5%) Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
     Untuk memastikan web berjalan dengan baik, saya melakukan beberapa hal berikut:
   	a. Konfigurasi database (MySQL, PostgreSQL, dll.) dengan pengaturan koneksi yang aman.
     b. Implementasikan aturan firewall untuk mengamankan lalu lintas jaringan.
+  	c. Manajemen file-file code yang menyusun website.
    
 Catatan:
 - Ujian ini dirancang untuk menguji pemahaman dan keterampilan Anda dalam pengembangan web di sisi klien dan server.
